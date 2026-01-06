@@ -19,7 +19,7 @@
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
-    overflow-y: visible;
+    overflow-y: auto;
     position: fixed;
     padding-top: $masthead-height;
   }
@@ -286,11 +286,6 @@
     }
   }
 
-  li {
-    white-space: normal;
-    word-wrap: break-word;
-  }
-
   &:after {
     display: block;
     content: "";
@@ -309,7 +304,8 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
   }
 
   a {
