@@ -157,6 +157,11 @@
     max-width: 175px;
     border-radius: 50%;
 
+    width: 175px; 
+    height: 175px; 
+    object-fit: cover;
+    object-position: center;
+
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid var(--global-border-color);
@@ -304,9 +309,12 @@
   }
 
   li {
+    overflow: visible;      
+    text-overflow: clip; 
     white-space: normal;
     word-wrap: break-word;
   }
+  
 
   a {
     display: block;
