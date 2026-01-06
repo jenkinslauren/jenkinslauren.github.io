@@ -1,6 +1,6 @@
 # basic site settings
 locale                   : "en-US"
-site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "dirt" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Lauren Jenkins"
 title_separator          : ""
 name                     : &name "Lauren Jenkins"
@@ -16,13 +16,13 @@ repository               : "jenkinslauren.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "Lauren Jenkins"
+  pronouns         : "she/her"  
+  bio              : "Ecology PhD Candidate studying climate change impacts on continent-wide forest biodiversity"
+  employer         : "Nicholas School of the Environment at Duke University"
+  location         : "Durham, NC"
+  uri              : "[Clark Lab](https://sites.nicholas.duke.edu/clarklab/)"
+  email            : "lauren.jenkins@duke.edu" 
 
   # Academic websites
   academia         : # URL
