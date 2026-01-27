@@ -18,7 +18,7 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
+    @include span(12 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
   }
@@ -398,4 +398,37 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  margin: 2em 0;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-text {
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+}
+
+.photo-scroll {
+  display: flex;
+  gap: 1em;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  
+  img {
+    min-width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: start;
+  }
 }
