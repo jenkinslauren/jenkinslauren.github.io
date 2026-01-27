@@ -1,11 +1,9 @@
 ---
 permalink: /about/
-title: "about me"
+title: ""
 layout: single
 author_profile: false
 ---
-
-## About Me
 
 <div class="about-section">
   <div class="about-text">
