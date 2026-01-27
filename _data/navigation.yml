@@ -17,7 +17,7 @@ main:
   - title: "publications"
     url: /publications/
 
-- title: "outreach"
+  - title: "outreach"
     url: /outreach/  
     
   - title: "CV"
