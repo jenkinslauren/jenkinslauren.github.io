@@ -18,9 +18,9 @@
 
 .page {
   @include breakpoint($large) {
-    float: left;
-    width: 100% !important;
-    padding-right: 0;
+    @include span(10 of 12);      
+    @include prefix(1 of 12);    
+    @include suffix(1 of 12);
   }
 
   .page__inner-wrap {
