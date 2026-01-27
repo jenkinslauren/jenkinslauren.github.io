@@ -44,6 +44,23 @@
   }
 }
 
+.site-title {
+  text-align: center;
+  padding: 1em 0 0.5em;
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: $sans-serif;
+    color: var(--global-text-color);
+    font-weight: 700;
+    
+    @media (max-width: 768px) {
+      font-size: 1.8em;
+    }
+  }
+}
+
 .masthead__menu {
 
   ul {
