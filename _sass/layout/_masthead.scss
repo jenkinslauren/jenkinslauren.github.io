@@ -51,9 +51,11 @@
   h1 {
     font-size: 3em;
     margin: 0;
-    font-family: 'Londrina Shadow', sans-serif;;
+    font-family: 'Londrina Shadow', sans-serif;
     color: var(--global-text-color);
     font-weight: 400;
+    text-transform: uppercase; 
+    letter-spacing: 0.05em;
     
     @media (max-width: 768px) {
       font-size: 1.8em;
