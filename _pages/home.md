@@ -1,21 +1,16 @@
 ---
-permalink: /about/
-title: "about me"
-layout: single
+permalink: /
+title: "Lauren Jenkins"
+layout: home
 author_profile: false
 ---
-
-## About Me
 
 <div class="about-section">
   <div class="about-text">
     <p>Hello! I'm Lauren, an Ecology PhD candidate in the Nicholas School of the Environment at Duke University. I study climate change impacts on continent-wide forest biodiversity. My research focuses on understanding how global climate patterns affect forest ecosystems across multiple scales.</p>
-    
-    <h2>research</h2>
-    <p>coming soon!</p>
   </div>
   
   <div class="photo-scroll">
-    <img src="/images/LJ_profile.jpg" alt="Me!">
+    <img src="/images/about/coweeta.jpg" alt="Field work">
   </div>
 </div>
