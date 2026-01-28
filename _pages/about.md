@@ -7,7 +7,6 @@ author_profile: false
 
 <div class="about-section">
   <div class="about-header">
-    <!-- Left column: profile + info + social links -->
     <div class="about-left">
       <img src="/images/LJ_profile.JPG" alt="Lauren Jenkins" class="profile-photo">
       <h1>Lauren Jenkins</h1>

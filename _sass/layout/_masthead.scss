@@ -130,13 +130,16 @@
 
 .about-section {
   padding: 2rem;
+  justify-content: center;
 }
 
 .about-header {
   display: flex;
   align-items: flex-start; 
-  gap: 3rem;              // space between columns
-  flex-wrap: wrap;         // makes it responsive
+  gap: 3rem;              
+  flex-wrap: wrap;        
+  max-width: 1000px;       
+  width: 100%;
 }
 
 .about-left {
