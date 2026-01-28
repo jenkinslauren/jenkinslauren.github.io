@@ -20,22 +20,6 @@
   display: none !important;
 }
 
-.masthead .greedy-nav .color-mode-toggle {
-  display: inline-flex !important; 
-  align-items: center;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: var(--global-masthead-link-color);
-}
-
-.masthead .greedy-nav .color-mode-toggle i {
-  font-size: 1.2rem;
-}
-
    /*
    Breadcrumb navigation links
    ========================================================================== */
@@ -471,4 +455,20 @@
       display: block;
     }
   }
+}
+
+.masthead .greedy-nav li#theme-toggle button.color-mode-toggle {
+  display: inline-flex !important; 
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--global-masthead-link-color);
+}
+
+.masthead .greedy-nav li#theme-toggle button.color-mode-toggle i {
+  font-size: 1.2rem;
 }
