@@ -247,6 +247,26 @@ h1 {
   color: var(--accent-color);  // optional hover effect
 }
 
+.teaching-section {
+  max-width: 900px;
+  margin: 0 auto; /* center content */
+  padding: 2rem 1rem;
+  line-height: 1.7;
+}
+
+.teaching-section h2 {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+}
+
+.teaching-section h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.teaching-section p {
+  margin-top: 1rem;
+}
 
 .masthead-spacer {
   height: 7rem;
