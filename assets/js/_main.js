@@ -139,5 +139,19 @@ $(document).ready(function () {
     offset: -scssMastheadHeight,
     preventDefault: false,
   });
+  // ------------------------------
+  // Photo scroll arrow functionality
+  // ------------------------------
+  $('.scroll-btn').on('click', function () {
+    const $wrapper = $(this).closest('.photo-scroll-wrapper');
+    const $scrollContainer = $wrapper.find('.photo-scroll');
+    const scrollAmount = $scrollContainer.find('img').outerWidth(true); // includes margin/gap
+
+    if ($(this).hasClass('left')) {
+      $scrollContainer.animate({ scrollLeft: '-=' + scrollAmount }, 400);
+    } else {
+      $scrollContainer.animate({ scrollLeft: '+=' + scrollAmount }, 400);
+    }
+  });
 
 });

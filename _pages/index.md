@@ -6,9 +6,13 @@ author_profile: false
 ---
 
 <div class="about-section">
- <div class="photo-scroll">
-    <img src="/images/about/coweeta.jpg" alt="Field work" >
-     <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counts!" >
+  <div class="photo-scroll-wrapper">
+   <button class="scroll-btn left" aria-label="Scroll left">&larr;</button>
+      <div class="photo-scroll">
+        <img src="/images/about/coweeta.jpg" alt="Field work">
+        <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counts!" >
+      </div>
+    <button class="scroll-btn right" aria-label="Scroll right">&rarr;</button>
   </div>
 <!--
   <div class="about-text">
