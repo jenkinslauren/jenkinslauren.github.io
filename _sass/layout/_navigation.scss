@@ -1,7 +1,26 @@
 /* ==========================================================================
    NAVIGATION
    ========================================================================== */
-/*
+.masthead .greedy-nav .visible-links {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  position: static !important;
+  flex-direction: row !important;
+}
+
+.masthead .greedy-nav .visible-links li {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.masthead .greedy-nav button {
+  display: none !important;
+}
+
+   /*
    Breadcrumb navigation links
    ========================================================================== */
 
