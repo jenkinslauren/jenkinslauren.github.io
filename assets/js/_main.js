@@ -131,27 +131,25 @@ $(document).ready(function () {
     }
   });
 
-  // Init smooth scroll, this needs to be slightly more than then fixed masthead height
-  $("a").smoothScroll({
+  $('#theme-toggle a').on('click', function(e){
+    e.preventDefault();
+    e.stopPropagation(); // Stop event from bubbling
+    toggleTheme();
+    return false; // Extra safety to prevent default behavior
+  });
+
+  // Initialize theme on page load
+  setTheme();
+
+  $("a").not('#theme-toggle a').smoothScroll({
     offset: -scssMastheadHeight,
     preventDefault: false,
   });
-  
-  // ---------------------------
-  // Enable theme toggle
-  // ---------------------------
-    $('#theme-toggle').on('click', function(e){
-      e.preventDefault(); // prevent anchor default behavior
-      toggleTheme();
-    });
 
-    // Initialize theme on page load
-    setTheme();
-
-    // Listen to OS/browser preference changes
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener("change", (e) => {
-      if (!localStorage.getItem("theme")) {
-          setTheme(e.matches ? "dark" : "light");
-      }
-    });
+  // Listen to OS/browser preference changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener("change", (e) => {
+    if (!localStorage.getItem("theme")) {
+        setTheme(e.matches ? "dark" : "light");
+    }
+  });
 });
