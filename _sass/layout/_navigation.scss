@@ -213,6 +213,11 @@
     justify-content: center;
     flex-wrap: nowrap;      
 
+    @media (min-width: $large) {
+      display: flex !important;
+      flex-direction: row;
+    }
+
     @media (max-width: $large) {
       position: absolute;
       right: 0;
