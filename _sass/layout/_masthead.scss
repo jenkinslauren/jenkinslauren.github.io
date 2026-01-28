@@ -107,3 +107,13 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.greedy-nav .visible-links li {
+  display: inline-block !important;
+}
