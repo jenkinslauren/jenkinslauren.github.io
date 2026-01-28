@@ -99,12 +99,6 @@ $(document).ready(function () {
           }
         });
 
-  // Enable the theme toggle
-  $$('#theme-toggle a').on('click', function(e){
-    e.preventDefault();
-    toggleTheme();
-});
-
   // Enable the sticky footer
   var bumpIt = function () {
     $("body").css("padding-bottom", "0");
@@ -142,5 +136,22 @@ $(document).ready(function () {
     offset: -scssMastheadHeight,
     preventDefault: false,
   });
+  
+  // ---------------------------
+  // Enable theme toggle
+  // ---------------------------
+    $('#theme-toggle a').on('click', function(e){
+      e.preventDefault(); // prevent anchor default behavior
+      toggleTheme();
+    });
 
+    // Initialize theme on page load
+    setTheme();
+
+    // Listen to OS/browser preference changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener("change", (e) => {
+      if (!localStorage.getItem("theme")) {
+          setTheme(e.matches ? "dark" : "light");
+      }
+    });
 });
