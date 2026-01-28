@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-layout: default
+layout: single
 author_profile: false
 ---
 
