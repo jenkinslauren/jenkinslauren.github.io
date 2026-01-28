@@ -439,3 +439,19 @@
     }
   }
 }
+
+.greedy-nav .visible-links {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+}
+
+.greedy-nav .visible-links li {
+  display: inline-block !important;
+  visibility: visible !important;
+}
+
+.greedy-nav button {
+  display: none !important;
+}
