@@ -403,14 +403,10 @@
 }
 
 .about-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2em;
-  margin: 2em 0;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
   
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
 }
 
 .about-text {
@@ -418,6 +414,52 @@
     font-size: 0.8em;
     line-height: 1.6;
   }
+} 
+
+.about-header {
+  display: flex;
+  flex-wrap: wrap; /* stack on smaller screens */
+  max-width: 1000px; /* limits width so content is centered */
+  width: 100%;
+  gap: 2rem; /* space between left and right columns */
+}
+
+.about-left, .about-right {
+  flex: 1; /* each column takes up equal space */
+  min-width: 280px; /* prevents columns from shrinking too small */
+}
+
+/* Profile photo styling */
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Social links styling */
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.social-links li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.social-links li i {
+  margin-right: 0.5rem;
+  width: 1.2em;
+  text-align: center;
+}
+
+/* Right column text */
+.about-right h2 {
+  margin-top: 1.5rem;
 }
 
 .photo-scroll {
