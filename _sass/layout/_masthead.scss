@@ -2,12 +2,12 @@
    MASTHEAD
    ========================================================================== */
 .masthead + * {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 @media (max-width: 768px) {
   .masthead + * {
-    margin-top: 5.5rem;
+    margin-top: 3rem;
   }
 }
 
