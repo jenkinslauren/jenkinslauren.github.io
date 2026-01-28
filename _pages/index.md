@@ -14,5 +14,4 @@ author_profile: false
     <p>Hello! I'm Lauren, an Ecology PhD candidate in the Nicholas School of the Environment at Duke University. I study climate change impacts on continent-wide forest biodiversity. My research focuses on understanding how global climate patterns affect forest ecosystems across multiple scales.</p>
   </div>
 -->
-  
 </div>
