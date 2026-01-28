@@ -179,3 +179,23 @@
     &.right { right: 0.5em; }
   }
 }
+
+.photo-thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+
+  img {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+
+    &:hover {
+      border-color: var(--global-text-color);
+    }
+  }
+}

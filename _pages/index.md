@@ -13,6 +13,11 @@ author_profile: false
         <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counts!" >
       </div>
     <button class="scroll-btn right" aria-label="Scroll right">&rarr;</button>
+    <div class="photo-thumbnails">
+      <img src="/images/about/coweeta.jpg" alt="Field work">
+      <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counts!" >
+    </div>
+
   </div>
 <!--
   <div class="about-text">
