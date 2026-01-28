@@ -130,7 +130,9 @@
 
 .about-section {
   padding: 2rem;
+  display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .about-header {
@@ -138,7 +140,7 @@
   align-items: flex-start; 
   gap: 3rem;              
   flex-wrap: wrap;        
-  max-width: 1000px;       
+  max-width: 1200px;       // Increased from 1000px
   width: 100%;
 }
 
@@ -184,7 +186,8 @@ h1 {
 
 .about-right {
   flex: 1;             
-  max-width: 600px;
+  min-width: 400px;    // Added minimum width
+  max-width: none;     // Removed max-width restriction
 
   p, h2 {
     margin-top: 0;
@@ -201,6 +204,7 @@ h1 {
   .about-left, .about-right {
     width: 100%;
     max-width: none;
+    min-width: auto;
     text-align: center;
   }
 }
