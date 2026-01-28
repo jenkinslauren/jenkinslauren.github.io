@@ -202,7 +202,7 @@
     z-index: 100;
     display: none;
 
-    @include breakpoint(max-width $large) {
+    @media screen and (max-width: 924px) {
       display: block;
     }
   }
@@ -261,7 +261,7 @@
       }
     }
 
-    @include breakpoint(max-width $large) {
+    @media screen and (max-width: 924px) {
       display: none;
       position: absolute;
       right: 0;
