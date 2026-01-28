@@ -140,7 +140,7 @@ $(document).ready(function () {
   // ---------------------------
   // Enable theme toggle
   // ---------------------------
-    $('#theme-toggle a').on('click', function(e){
+    $('#theme-toggle').on('click', function(e){
       e.preventDefault(); // prevent anchor default behavior
       toggleTheme();
     });
