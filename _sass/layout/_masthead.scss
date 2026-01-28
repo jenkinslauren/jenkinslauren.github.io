@@ -1,7 +1,6 @@
 /* ==========================================================================
    MASTHEAD
    ========================================================================== */
-
 .masthead {
   position: fixed;
   background: var(--global-bg-color);
@@ -15,6 +14,16 @@
           animation-delay: 0.15s;
   z-index: 20;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+
+  #main {
+  margin-top: 7rem;
+  }
+
+  @media (max-width: 768px) {
+    #main {
+      margin-top: 6rem;
+    }
+  } 
 
   &::after {
     content: "";
@@ -117,16 +126,6 @@
 
 .masthead .greedy-nav .visible-links li {
   display: inline-block !important;
-}
-
-#main {
-  margin-top: 7rem;
-}
-
-@media (max-width: 768px) {
-  #main {
-    margin-top: 6rem;
-  }
 }
 
 .about-text {
