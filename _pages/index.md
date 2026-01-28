@@ -8,6 +8,7 @@ author_profile: false
 <div class="about-section">
  <div class="photo-scroll">
     <img src="/images/about/coweeta.jpg" alt="Field work" >
+     <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counts!" >
   </div>
 <!--
   <div class="about-text">
