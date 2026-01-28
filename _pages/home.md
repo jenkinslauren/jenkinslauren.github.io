@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Lauren Jenkins"
+title: ""
 layout: home
 author_profile: false
 ---
