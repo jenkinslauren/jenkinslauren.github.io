@@ -132,3 +132,13 @@
   font-size: 0.8rem;
   line-height: 1.65;
 }
+
+.masthead-spacer {
+  height: 7rem;
+}
+
+@media (max-width: 768px) {
+  .masthead-spacer {
+    height: 6rem;
+  }
+}
