@@ -203,10 +203,12 @@
   }
 
   .visible-links {
-    display: table;
+    display: flex;         
+    justify-content: center;
+    flex-wrap: wrap;         // ADD THIS - allows wrapping on small screens
 
     li {
-      display: table-cell;
+      display: table-cell;   // Keep this or change to flex
       vertical-align: middle;
 
       &:first-child {
