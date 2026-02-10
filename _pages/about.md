@@ -27,13 +27,14 @@ author_profile: false
       <p>
       Hello! I'm Lauren, an Ecology PhD candidate in the Nicholas School of the Environment at Duke University. I study climate change impacts on continent-wide forest biodiversity. My research focuses on understanding how global climate patterns affect forest ecosystems across multiple scales.
       </p>
-    <section class="photo-scroll-container">
-    <div class="photo-scroll-wrap">
-      <img src="/images/about/coweeta.jpg" alt="Fieldwork at Coweeta Hydrologic Lab">
-      <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counting in New Hampshire">
-    </div>
-  </section>
-
+    <section class="photo-scroll-auto">
+      <div class="photo-scroll-inner">
+        <img src="/images/about/coweeta.jpg" alt="Fieldwork at Coweeta Hydrologic Lab">
+        <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counting in New Hampshire">
+        <img src="/images/about/coweeta.jpg" alt="Fieldwork at Coweeta Hydrologic Lab">
+        <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counting in New Hampshire">
+      </div>
+    </section>
       <h2>research</h2>
       <p>coming soon!</p>
     </div>
