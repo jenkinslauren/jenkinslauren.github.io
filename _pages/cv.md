@@ -9,4 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-coming soon!
+<iframe
+  src="/files/Lauren Jenkins CV _ Feb26.pdf"
+  width="100%"
+  height="900px"
+  style="border: none;"
+>
+</iframe>
