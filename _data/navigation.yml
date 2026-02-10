@@ -17,11 +17,11 @@ main:
   - title: "teaching"
     url: /teaching/  
 
-  - title: "publications"
-    url: /publications/
-
   - title: "outreach"
     url: /outreach/  
+  
+  - title: "publications"
+    url: /publications/
     
   - title: "CV"
     url: /cv/
