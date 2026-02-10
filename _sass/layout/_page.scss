@@ -427,6 +427,7 @@
 .about-left, .about-right {
   flex: 1; /* each column takes up equal space */
   min-width: 280px; /* prevents columns from shrinking too small */
+  text-align: center;
 }
 
 .profile-photo {
