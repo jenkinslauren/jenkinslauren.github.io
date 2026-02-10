@@ -145,17 +145,17 @@
 }
 
 .about-left {
-  width: 250px;            // fixed width for left column
+  width: 300px;            // fixed width for left column
   flex-shrink: 0;
 }
 
 .profile-photo {
-  width: 200px;
-  height: 200px;
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 1.5rem auto;
 }
 
 h1 {
@@ -173,15 +173,18 @@ h1 {
   list-style: none;
   padding: 0;
   font-size: 0.9rem;
+}
 
-  li {
-    margin: 0.3em 0;
-  }
+.social-links li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+  margin: 0.25em 0;
+}
 
-  a {
-    color: inherit;
-    text-decoration: underline;
-  }
+.social-links a {
+  text-decoration: underline;
+  line-height: 1.4;
 }
 
 .about-right {
