@@ -404,7 +404,9 @@
 
 .about-section {
   display: flex;
+  justify-content: center;
   padding: 2rem 1rem;
+  width: 100%;
   
 }
 
@@ -418,10 +420,9 @@
 .about-header {
   display: flex;
   flex-wrap: wrap;        // allows stacking on small screens
-  justify-content: center;
-  max-width: 1200px;
-  width: 100%;
   gap: 2rem;
+  max-width: 1200px;
+  width: 100%;  
 }
 
 .about-left {
@@ -431,7 +432,7 @@
 }
 
 .about-right {
-  flex: 0 0 70%;          // 70% of container
+  flex: 1;          // 70% of container
   min-width: 280px; 
   text-align: left;
 }
