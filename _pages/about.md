@@ -46,8 +46,6 @@ author_profile: false
       <div class = "photo-carousel-track">
         <img src="/images/about/coweeta.jpg" alt="Fieldwork at Coweeta Hydrologic Lab">
         <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counting in New Hampshire">
-        <img src="/images/about/coweeta.jpg" alt="Fieldwork at Coweeta Hydrologic Lab">
-        <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counting in New Hampshire">
       </div>
       <button class="carousel-btn next" aria-label="Next images">
         &#10095;
