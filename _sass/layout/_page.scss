@@ -427,6 +427,7 @@
 .about-left {
   flex: 1; /* each column takes up equal space */
   min-width: 280px; /* prevents columns from shrinking too small */
+  text-align: center;
 }
 
 .about-right {
@@ -469,7 +470,7 @@
 }
 
 .social-box {
-  margin-top: 0.25rem;
+  margin-top: 0.1rem;
   padding: 0.4rem 1rem 0.75rem 1rem;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.04);
