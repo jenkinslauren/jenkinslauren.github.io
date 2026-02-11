@@ -51,6 +51,9 @@
 }
 
 .page__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 
   h2 {
     padding-bottom: 0.5em;
@@ -106,6 +109,15 @@
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+  }
+
+  > .about-section {
+    max-width: 1200px;       // limit container width
+    margin: 0 auto;          // center in page__content
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
   }
 }
 
@@ -418,7 +430,7 @@
 }
 
 .about-left {
-  flex: 0 0 30%;          // takes 30% of the row
+  flex: 0 0 40%;          // takes 30% of the row
   min-width: 200px;       // ensures it doesn't shrink too much
   text-align: center;
 }
