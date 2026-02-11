@@ -425,13 +425,13 @@
 }
 
 .about-left {
-  flex: 1; /* each column takes up equal space */
+  flex: 0 0 30%;
   min-width: 280px; /* prevents columns from shrinking too small */
   text-align: center;
 }
 
 .about-right {
-  flex: 1; /* each column takes up equal space */
+  flex: 0 0 70%; /* each column takes up equal space */
   min-width: 280px; /* prevents columns from shrinking too small */
   text-align: left;
 }
