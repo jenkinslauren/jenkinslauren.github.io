@@ -424,9 +424,15 @@
   gap: 2rem; /* space between left and right columns */
 }
 
-.about-left, .about-right {
+.about-left {
   flex: 1; /* each column takes up equal space */
   min-width: 280px; /* prevents columns from shrinking too small */
+}
+
+.about-right {
+  flex: 1; /* each column takes up equal space */
+  min-width: 280px; /* prevents columns from shrinking too small */
+  text-align: left;
 }
 
 .profile-photo {
