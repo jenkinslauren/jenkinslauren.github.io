@@ -418,23 +418,34 @@
 
 .about-header {
   display: flex;
-  flex-wrap: wrap;      /* allow stacking on small screens */
-  max-width: 1000px;
+  flex-wrap: wrap;        // allows stacking on small screens
+  justify-content: center;
+  max-width: 1200px;
   width: 100%;
-  gap: 2rem;            /* space between columns */
+  gap: 2rem;
 }
 
 .about-left {
-  flex: 0 0 30%;        /* base width 30% */
-  min-width: 200px;     /* smaller to fit better */
-  text-align: center;   /* centers photo, pronouns, social box */
+  flex: 0 0 30%;          // 30% of container
+  min-width: 200px;       // prevents too small
+  text-align: center;
 }
 
 .about-right {
-  flex: 0 0 70%;        /* base width 70% */
-  min-width: 280px;     /* prevents text from shrinking too much */
+  flex: 0 0 70%;          // 70% of container
+  min-width: 280px;       // prevents too small
   text-align: left;
 }
+
+/* Mobile stacking */
+@media (max-width: 768px) {
+  .about-left, .about-right {
+    flex: 0 0 100%;
+    text-align: center;
+    min-width: auto;
+  }
+}
+
 
 /* Stack columns on small screens */
 @media (max-width: 768px) {

@@ -176,31 +176,6 @@
   line-height: 1.4;
 }
 
-.about-right {
-  flex: 1;             
-  min-width: 400px;    // Added minimum width
-  max-width: none;     // Removed max-width restriction
-
-  p, h2 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .about-header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about-left, .about-right {
-    width: 100%;
-    max-width: none;
-    min-width: auto;
-    text-align: center;
-  }
-}
-
 .about-section .about-text {
   font-size: 1.2rem;
   line-height: 1.65;
