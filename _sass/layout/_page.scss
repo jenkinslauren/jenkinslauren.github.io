@@ -111,14 +111,6 @@
     padding-left: 1.25rem;
   }
 
-  > .about-section {
-    max-width: 1200px;       // limit container width
-    margin: 0 auto;          // center in page__content
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
 }
 
 .page__hero {
@@ -205,10 +197,6 @@
   }
 }
 
-/*
-   Social sharing
-   ========================================================================== */
-
 .page__share {
   margin-top: 2em;
   padding-top: 1em;
@@ -234,11 +222,6 @@
   text-transform: uppercase;
 }
 
-
-/*
-   Page meta
-   ========================================================================== */
-
 .page__meta {
   margin-top: 2em;
   color: var(--global-text-color-light);
@@ -259,11 +242,6 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
-
-
-/*
-   Page taxonomy
-   ========================================================================== */
 
 .page__taxonomy {
   .sep {
@@ -385,11 +363,6 @@
     text-decoration: none;
   }
 }
-
-
-/*
-   Related
-   ========================================================================== */
 
 .page__related {
   margin-top: 2em;
