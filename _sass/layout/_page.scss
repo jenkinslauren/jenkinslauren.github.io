@@ -470,13 +470,11 @@
 }
 
 .social-box {
-  margin-top: 0.1rem;
+  display: inline-block;
+  margin: 0.25rem auto 0 auto;
   padding: 0.4rem 1rem 0.75rem 1rem;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.04);
-  display: flex;          /* make it a flex container */
-  flex-direction: column; /* stack rows vertically */
-  align-items: center;
 }
 
 .social-row {
