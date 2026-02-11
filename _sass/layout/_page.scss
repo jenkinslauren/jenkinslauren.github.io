@@ -496,7 +496,6 @@
   margin: 0 0.3rem;
 }
 
-
 /* Right column text */
 .about-right h2 {
   margin-top: 1.5rem;
@@ -538,7 +537,7 @@
   width: auto;
   height: 200px;
   flex-shrink: 0;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .carousel-btn {
