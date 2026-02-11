@@ -474,7 +474,8 @@
   padding: 0.4rem 1rem 0.75rem 1rem;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.04);
-  display: inline-block;
+  display: flex;          /* make it a flex container */
+  flex-direction: column; /* stack rows vertically */
   align-items: center;
 }
 
