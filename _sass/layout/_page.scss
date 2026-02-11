@@ -496,11 +496,10 @@
 }
 
 .photo-carousel-track img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 200px;
   flex-shrink: 0;
   object-fit: contain;
-  background: var(--global-bg-color);
 }
 
 .carousel-btn {
