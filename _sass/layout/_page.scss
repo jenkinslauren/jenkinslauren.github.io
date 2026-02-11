@@ -425,13 +425,13 @@
 }
 
 .about-left {
-  flex: 0 0 30%;
+  flex: 0 0 40%;
   min-width: 280px; /* prevents columns from shrinking too small */
   text-align: center;
 }
 
 .about-right {
-  flex: 0 0 70%; /* each column takes up equal space */
+  flex: 0 0 60%; /* each column takes up equal space */
   min-width: 280px; /* prevents columns from shrinking too small */
   text-align: left;
 }
