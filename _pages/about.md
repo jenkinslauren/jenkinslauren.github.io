@@ -11,18 +11,26 @@ author_profile: false
       <img src="/images/LJ_profile.JPG" alt="Lauren Jenkins" class="profile-photo">
       <h1>Lauren Jenkins</h1>
       <p class="pronouns">she/her</p>
-      <p class = "social-links">
-        <i class="fas fa-fw fa-link"></i> <a href="https://sites.nicholas.duke.edu/clarklab/">Clark Lab</a>
-        <span>|</span>
-        <i class="fas fa-fw fa-envelope"></i> <a href="mailto:lauren.jenkins@duke.edu">lauren.jenkins@duke.edu</a>
-      </p>
-      <p class = "social-links">
-        <i class="fab fa-github"></i> <a href="https://github.com/jenkinslauren">GitHub</a>
-        <span>|</span>
-        <i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/jenkins-lauren">LinkedIn</a>
-        <span>|</span>
-        <i class="fab fa-bluesky"></i> <a href="https://bsky.app/profile/laurenseestrees">Bluesky</a>
-      </p>
+      <div class="social-box">
+  <div class="social-row">
+    <i class="fas fa-fw fa-link"></i>
+    <a href="https://sites.nicholas.duke.edu/clarklab/">Clark Lab</a>
+    <span class="divider">|</span>
+    <i class="fas fa-fw fa-envelope"></i>
+    <a href="mailto:lauren.jenkins@duke.edu">lauren.jenkins@duke.edu</a>
+  </div>
+
+  <div class="social-row">
+    <i class="fab fa-github"></i>
+    <a href="https://github.com/jenkinslauren">GitHub</a>
+    <span class="divider">|</span>
+    <i class="fab fa-linkedin"></i>
+    <a href="https://linkedin.com/in/jenkins-lauren">LinkedIn</a>
+    <span class="divider">|</span>
+    <i class="fab fa-bluesky"></i>
+    <a href="https://bsky.app/profile/laurenseestrees">Bluesky</a>
+  </div>
+</div>
       <!-- <ul class="social-links">
         <li><i class="fas fa-fw fa-building"></i> Nicholas School of the Environment at Duke University</li>
         <li><i class="fas fa-fw fa-link"></i> <a href="https://sites.nicholas.duke.edu/clarklab/">Clark Lab</a></li>
