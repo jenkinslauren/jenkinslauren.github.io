@@ -404,7 +404,6 @@
 
 .about-section {
   display: flex;
-  justify-content: center;
   padding: 2rem 1rem;
   
 }
@@ -427,13 +426,13 @@
 
 .about-left {
   flex: 0 0 30%;          // 30% of container
-  min-width: 200px;       // prevents too small
+  min-width: 200px;
   text-align: center;
 }
 
 .about-right {
   flex: 0 0 70%;          // 70% of container
-  min-width: 280px;       // prevents too small
+  min-width: 280px; 
   text-align: left;
 }
 
