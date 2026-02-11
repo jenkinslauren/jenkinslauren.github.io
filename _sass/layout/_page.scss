@@ -68,7 +68,7 @@
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
-    line-height: 1.4;
+    line-height: 1.3;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
