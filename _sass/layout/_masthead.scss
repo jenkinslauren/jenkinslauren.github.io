@@ -128,31 +128,6 @@
   display: inline-block !important;
 }
 
-.about-section {
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.about-header {
-  display: flex;
-  align-items: flex-start; 
-  gap: 3rem;              
-  flex-wrap: wrap;        
-  max-width: 1200px;       // Increased from 1000px
-  width: 100%;
-}
-
-.profile-photo {
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto 1.5rem auto;
-}
-
 .social-links {
   list-style: none;
   padding: 0;
@@ -170,12 +145,6 @@
   text-decoration: underline;
   line-height: 1.4;
 }
-
-.about-section .about-text {
-  font-size: 1.2rem;
-  line-height: 1.65;
-}
-
 
 #theme-toggle {
   cursor: pointer;

@@ -437,21 +437,17 @@
   text-align: left;
 }
 
+/* Right column text */
+.about-right h2 {
+  margin-top: 1.5rem;
+}
+
 /* Mobile stacking */
 @media (max-width: 768px) {
   .about-left, .about-right {
     flex: 0 0 100%;
     text-align: center;
     min-width: auto;
-  }
-}
-
-
-/* Stack columns on small screens */
-@media (max-width: 768px) {
-  .about-left,
-  .about-right {
-    flex: 0 0 100%;     /* full width on mobile */
   }
 }
 
@@ -525,12 +521,6 @@
   opacity: 0.4;
   margin: 0 0.3rem;
 }
-
-/* Right column text */
-.about-right h2 {
-  margin-top: 1.5rem;
-}
-
 
 .photo-scroll-auto {
   overflow: hidden;
