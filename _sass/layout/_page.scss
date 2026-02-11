@@ -56,6 +56,7 @@
   gap: 2rem;
 
   h2 {
+    font-family: $header-font-family;
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
   }
@@ -158,6 +159,7 @@
     }
 
     .page__title {
+      font-family: $header-font-family;
       font-size: $type-size-2;
 
       @include breakpoint($small) {
