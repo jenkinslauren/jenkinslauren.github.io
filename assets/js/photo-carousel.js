@@ -7,19 +7,19 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!track) return;
 
   let currentIndex = 0;
+  const totalSlides = slides.length;
 
-  function updateSlide() {
+  function updateCarousel() {
     track.style.transform = `translateX(-${currentIndex * 100}%)`;
   }
 
   nextBtn.addEventListener("click", () => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    updateSlide();
+    currentIndex = (currentIndex + 1) % totalSlides;
+    updateCarousel();
   });
 
   prevBtn.addEventListener("click", () => {
-    currentIndex =
-      (currentIndex - 1 + slides.length) % slides.length;
-    updateSlide();
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    updateCarousel();
   });
 });
