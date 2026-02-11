@@ -407,37 +407,29 @@
   justify-content: center;
   padding: 2rem 1rem;
   width: 100%;
-  
 }
-
-.about-text {
-  p {
-    font-size: 0.8em;
-    line-height: 1.6;
-  }
-} 
 
 .about-header {
   display: flex;
   flex-wrap: wrap;        // allows stacking on small screens
   gap: 2rem;
   max-width: 1200px;
-  width: 100%;  
+  width: 100%;
 }
 
 .about-left {
-  flex: 0 0 30%;          // 30% of container
-  min-width: 200px;
+  flex: 0 0 30%;          // takes 30% of the row
+  min-width: 200px;       // ensures it doesn't shrink too much
   text-align: center;
 }
 
 .about-right {
-  flex: 1;          // 70% of container
-  min-width: 280px; 
+  flex: 1;                // takes remaining space
+  min-width: 280px;       // ensures it doesn't shrink too much
   text-align: left;
 }
 
-/* Right column text */
+/* Right column headings */
 .about-right h2 {
   margin-top: 1.5rem;
 }
@@ -447,9 +439,9 @@
   .about-left, .about-right {
     flex: 0 0 100%;
     text-align: center;
-    min-width: auto;
   }
 }
+
 
 .profile-photo {
   width: 260px;
