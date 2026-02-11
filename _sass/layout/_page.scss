@@ -486,49 +486,54 @@
   position: relative;
   display: flex;
   align-items: center;
-  margin: 2rem 0;
+  justify-content: center;
+  margin: 3rem 0;
 }
 
 .photo-carousel-track {
   display: flex;
-  gap: 1rem;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+  overflow: hidden;
   width: 100%;
+  max-width: 800px; /* controls size */
 }
 
 .photo-carousel-track img {
-  height: 170px;
-  width: auto;
-  border-radius: 8px;
+  width: 100%;
+  height: 450px;    
   object-fit: cover;
-  flex-shrink: 0;
+  flex: 0 0 100%;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
 }
 
-/* Arrow buttons */
 .carousel-btn {
-  background: var(--global-bg-color);
-  border: 1px solid var(--global-border-color);
+  background: rgba(255,255,255,0.8);
+  border: none;
   color: var(--global-text-color);
-  font-size: 1.5rem;
-  padding: 0.3em 0.6em;
-  cursor: pointer;
+  font-size: 1.2rem;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  line-height: 1;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  transition: background 0.2s ease;
 }
 
 .carousel-btn:hover {
-  background: var(--global-border-color);
+  background: white;
+  transform: scale(1.05);
 }
 
 .carousel-btn.prev {
-  margin-right: 0.75rem;
+  left: -50px;
 }
 
 .carousel-btn.next {
-  margin-left: 0.75rem;
+  right: -50px;
 }
 
 @keyframes scroll-left {
