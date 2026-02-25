@@ -14,21 +14,21 @@ author_profile: false
       <div class="social-box">
   <div class="social-row">
     <i class="fas fa-fw fa-link"></i>
-    <a href="https://sites.nicholas.duke.edu/clarklab/">Clark Lab</a>
+    <a href="https://sites.nicholas.duke.edu/clarklab/" target="_blank" rel="noopener noreferrer">Clark Lab</a>
     <span class="divider">|</span>
     <i class="fas fa-fw fa-envelope"></i>
-    <a href="mailto:lauren.jenkins@duke.edu">lauren.jenkins@duke.edu</a>
+    <a href="mailto:lauren.jenkins@duke.edu" target="_blank" rel="noopener noreferrer">lauren.jenkins@duke.edu</a>
   </div>
 
   <div class="social-row">
     <i class="fab fa-github"></i>
-    <a href="https://github.com/jenkinslauren">GitHub</a>
+    <a href="https://github.com/jenkinslauren" target="_blank" rel="noopener noreferrer">GitHub</a>
     <span class="divider">|</span>
     <i class="fab fa-linkedin"></i>
-    <a href="https://linkedin.com/in/jenkins-lauren">LinkedIn</a>
+    <a href="https://linkedin.com/in/jenkins-lauren" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     <span class="divider">|</span>
     <i class="fab fa-bluesky"></i>
-    <a href="https://bsky.app/profile/laurenseestrees">Bluesky</a>
+    <a href="https://bsky.app/profile/laurenseestrees" target="_blank" rel="noopener noreferrer">Bluesky</a>
   </div>
 </div>
       <!-- <ul class="social-links">
