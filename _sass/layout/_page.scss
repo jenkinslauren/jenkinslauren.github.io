@@ -417,7 +417,6 @@
   text-align: left;
 }
 
-/* Right column headings */
 .about-right h2 {
   margin-top: 1.5rem;
 }
@@ -731,10 +730,7 @@
 }
 
 .outreach-hero p {
-  max-width: 680px;
-  margin: 0 auto;
-  line-height: 1.75;
-  font-size: 1.05em;
+  margin-top: 0.5rem;
 }
 
 .photo-gallery {
@@ -839,13 +835,12 @@
 }
 
 .chapter-column h3 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.15rem;
   font-size: 1.1rem;
 }
 
 .chapter-column p {
-  line-height: 1.6;
+  margin-top: 0.5rem;
 }
 
 .references {
@@ -886,12 +881,10 @@
 
 .research-section h1,
 .research-section h2 {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
+  margin-top: 0rem;
+  font-size: 1.75rem;
 }
 
 .research-section p {
-  line-height: 1.6;
-  margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
 }
