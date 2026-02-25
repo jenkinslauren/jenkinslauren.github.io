@@ -59,8 +59,6 @@ author_profile: false
         &#10095;
       </button>
     </section>
-      <h2>research</h2>
-      <p>coming soon!</p>
     </div>
   </div>
 </div>
