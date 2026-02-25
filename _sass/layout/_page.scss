@@ -591,11 +591,12 @@
 }
 
 .teaching-section h2 {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   font-size: 1.75rem;
 }
 
 .teaching-section h3 {
+  scroll-margin-top: 80px;
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
@@ -628,8 +629,8 @@
   margin: 0 auto 1.5rem auto;
   padding: 1rem 1.25rem;
 
-  background: #84B179;  
-  border-left: 4px solid #5a845a;
+  background: #b6d2ae;  
+  border-left: 4px solid #70a170;
   border-radius: 6px;
 
   font-size: 0.9rem;
