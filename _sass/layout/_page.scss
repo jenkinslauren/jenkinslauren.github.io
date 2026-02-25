@@ -728,7 +728,7 @@
 .photo-card .caption {
   padding: 0.65em 1em;
   font-size: 0.88em;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   text-align: center;
 }
 
@@ -750,10 +750,8 @@
 
 .scimatch-intro {
   display: flex;
-  align-items: center;
-  gap: 1.5em;
-  flex-wrap: wrap;
-  margin-bottom: 1em;
+  align-items: flex-start;
+  gap: 1em;
 }
 
 .scimatch-intro img {
