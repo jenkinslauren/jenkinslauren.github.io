@@ -17,7 +17,7 @@ author_profile: false
     <a href="https://sites.nicholas.duke.edu/clarklab/" target="_blank" rel="noopener noreferrer">Clark Lab</a>
     <span class="divider">|</span>
     <i class="fas fa-fw fa-envelope"></i>
-    <a href="mailto:lauren.jenkins@duke.edu" target="_blank" rel="noopener noreferrer">lauren.jenkins@duke.edu</a>
+    <a href="mailto:lauren.jenkins@duke.edu" target="_blank" rel="noopener noreferrer">lauren.jenkins[at]duke[dot]edu</a>
   </div>
 
   <div class="social-row">
