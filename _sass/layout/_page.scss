@@ -32,6 +32,13 @@
   }
 }
 
+li#theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+}
+
 .page {
   @include breakpoint($large) {
     @include span(10 of 12);   
