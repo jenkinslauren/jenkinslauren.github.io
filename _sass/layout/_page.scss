@@ -15,6 +15,22 @@
     max-width: $x-large;
   }
 }
+.color-mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  color: var(--global-text-color);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--global-link-color);
+  }
+}
 
 .page {
   @include breakpoint($large) {
