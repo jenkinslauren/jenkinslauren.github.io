@@ -5,24 +5,24 @@
       <h1>
         <a href="/">
           Lauren Jenkins
-      </a>
-    </h1>
+        </a>
+      </h1>
     </div>
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-            </li>
+          {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+          {% else %}
+          {% assign domain = base_path %}
+          {% endif %}
+          <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+            <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+          </li>
           {% endfor %}
-          <li class="masthead__menu-item persist tail" id="theme-toggle">
+          <li class="masthead__menu-item" id="theme-toggle">
             <button class="color-mode-toggle" aria-label="Toggle theme" data-toggle-theme="light,dark">
               <i class="fa-solid fa-sun" aria-hidden="true" title="Toggle theme"></i>
             </button>
