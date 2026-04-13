@@ -942,3 +942,34 @@
 .pub-links a:hover {
   color: var(--global-link-color);
 }
+
+.pub-abstract {
+  margin-top: 0.4rem;
+}
+
+.pub-abstract summary {
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: var(--global-link-color);
+  list-style: none;
+}
+
+.pub-abstract summary::-webkit-details-marker {
+  display: none; /* removes default triangle */
+}
+
+.pub-abstract summary::before {
+  content: "▸ ";
+  font-size: 0.8rem;
+}
+
+.pub-abstract[open] summary::before {
+  content: "▾ ";
+}
+
+.pub-abstract p {
+  margin: 0.4rem 0 0 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+}
