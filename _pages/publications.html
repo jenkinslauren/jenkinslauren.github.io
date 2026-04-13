@@ -22,26 +22,38 @@ author_profile: false
       </p>
 
       <div class="pub-links">
-        {% if pub.paperurl %}
-          <a href="{{ pub.paperurl }}" target="_blank">Published Version</a>
-        {% endif %}
 
-        {% if pub.pdfurl %}
-          <a href="{{ pub.pdfurl }}" target="_blank">PDF</a>
-        {% endif %}
+  {% if pub.paperurl %}
+    <a href="{{ pub.paperurl }}" target="_blank" title="Published Version">
+      <i class="fas fa-external-link-alt"></i>
+    </a>
+  {% endif %}
 
-        {% if pub.supplementurl %}
-          <a href="{{ pub.supplementurl }}" target="_blank">Supplement</a>
-        {% endif %}
+  {% if pub.pdfurl %}
+    <a href="{{ pub.pdfurl }}" target="_blank" title="PDF">
+      <i class="fas fa-file-pdf"></i>
+    </a>
+  {% endif %}
 
-        {% if pub.doi %}
-          <a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI</a>
-        {% endif %}
+  {% if pub.supplementurl %}
+    <a href="{{ pub.supplementurl }}" target="_blank" title="Supplement">
+      <i class="fas fa-folder-open"></i>
+    </a>
+  {% endif %}
 
-        {% if pub.bibtexurl %}
-          <a href="{{ pub.bibtexurl }}" target="_blank">BibTeX</a>
-        {% endif %}
-      </div>
+  {% if pub.doi %}
+    <a href="https://doi.org/{{ pub.doi }}" target="_blank" title="DOI">
+      <i class="fas fa-link"></i>
+    </a>
+  {% endif %}
+
+  {% if pub.bibtexurl %}
+    <a href="{{ pub.bibtexurl }}" target="_blank" title="BibTeX">
+      <i class="fas fa-quote-right"></i>
+    </a>
+  {% endif %}
+
+</div>
 
     </div>
   {% endfor %}

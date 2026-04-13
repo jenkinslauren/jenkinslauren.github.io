@@ -923,17 +923,22 @@
 }
 
 .pub-citation {
-  margin: 0 0 0.3rem 0;
-  line-height: 1.5;
+  display: inline;
+}
+
+.pub-links {
+  display: inline;
+  margin-left: 0.5rem;
 }
 
 .pub-links a {
-  font-size: 0.85rem;
-  margin-right: 0.6rem;
+  margin-left: 0.4rem;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
   text-decoration: none;
-  color: var(--global-link-color);
+  transition: color 0.15s ease;
 }
 
 .pub-links a:hover {
-  text-decoration: underline;
+  color: var(--global-link-color);
 }
