@@ -5,32 +5,46 @@ permalink: /publications/
 author_profile: false
 ---
 
-{% assign publications_by_year = site.publications | group_by_exp: "pub", "pub.date | date: '%Y'" | sort: "name" | reverse %} 
-  {% for year_group in publications_by_year %}
-    {{ year_group.name }}
-    {% for pub in year_group.items %}
-      {{ pub.citation }}
-        {% if pub.paperurl %} 
-        Published Version 
-        {% endif %} 
-        
-        {% if pub.pdfurl %} 
-        PDF 
-        {% endif %}
-        
-        {% if pub.supplementurl %} 
-        Supplement 
-        {% endif %} 
-        
-        {% if pub.doi %} 
-        DOI 
-        {% endif %} 
-        
-        {% if pub.bibtexurl %} 
-        BibTeX 
-        {% endif %}
-  
-        {% if pub.abstract %}  {% endif %}
-    {% endfor %} {% endfor %}
+<div class="publications">
 
+{% assign publications_by_year = site.publications 
+  | group_by_exp: "pub", "pub.date | date: '%Y'" 
+  | sort: "name" | reverse %}
 
+{% for year_group in publications_by_year %}
+  <h2 class="pub-year">{{ year_group.name }}</h2>
+
+  {% for pub in year_group.items %}
+    <div class="pub-item">
+      
+      <p class="pub-citation">
+        {{ pub.citation }}
+      </p>
+
+      <div class="pub-links">
+        {% if pub.paperurl %}
+          <a href="{{ pub.paperurl }}" target="_blank">Published Version</a>
+        {% endif %}
+
+        {% if pub.pdfurl %}
+          <a href="{{ pub.pdfurl }}" target="_blank">PDF</a>
+        {% endif %}
+
+        {% if pub.supplementurl %}
+          <a href="{{ pub.supplementurl }}" target="_blank">Supplement</a>
+        {% endif %}
+
+        {% if pub.doi %}
+          <a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI</a>
+        {% endif %}
+
+        {% if pub.bibtexurl %}
+          <a href="{{ pub.bibtexurl }}" target="_blank">BibTeX</a>
+        {% endif %}
+      </div>
+
+    </div>
+  {% endfor %}
+{% endfor %}
+
+</div>
