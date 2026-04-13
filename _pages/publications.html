@@ -5,10 +5,32 @@ permalink: /publications/
 author_profile: false
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">Find my articles on <a href="{{site.author.googlescholar}}" target="_blank" rel="noopener noreferrer">my Google Scholar profile</a>.</div>
-{% endif %}
-
-
+{% assign publications_by_year = site.publications | group_by_exp: "pub", "pub.date | date: '%Y'" | sort: "name" | reverse %} 
+  {% for year_group in publications_by_year %}
+    {{ year_group.name }}
+    {% for pub in year_group.items %}
+      {{ pub.citation }}
+        {% if pub.paperurl %} 
+        Published Version 
+        {% endif %} 
+        
+        {% if pub.pdfurl %} 
+        PDF 
+        {% endif %}
+        
+        {% if pub.supplementurl %} 
+        Supplement 
+        {% endif %} 
+        
+        {% if pub.doi %} 
+        DOI 
+        {% endif %} 
+        
+        {% if pub.bibtexurl %} 
+        BibTeX 
+        {% endif %}
+  
+        {% if pub.abstract %}  {% endif %}
+    {% endfor %} {% endfor %}
 
 
