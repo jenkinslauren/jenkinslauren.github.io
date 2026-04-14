@@ -933,7 +933,6 @@
 
 .pub-links a {
   margin-left: 0.4rem;
-  color: var(--global-text-color-light);
   font-size: 0.9rem;
   opacity: 0.7;
   text-decoration: none;
@@ -957,7 +956,7 @@
 }
 
 .pub-abstract summary::-webkit-details-marker {
-  display: none; /* removes default triangle */
+  display: none;
 }
 
 .pub-abstract summary::before {
@@ -973,5 +972,4 @@
   margin: 0.4rem 0 0 0;
   font-size: 0.9rem;
   line-height: 1.5;
-  color: var(--global-text-color-light);
 }
