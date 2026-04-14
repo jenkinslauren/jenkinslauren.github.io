@@ -7,61 +7,63 @@ author_profile: false
 
 <div class="publications">
 
-{% assign publications_by_year = site.publications 
-  | group_by_exp: "pub", "pub.date | date: '%Y'" 
+  {% assign publications_by_year = site.publications
+  | group_by_exp: "pub", "pub.date | date: '%Y'"
   | sort: "name" | reverse %}
 
-{% for year_group in publications_by_year %}
+  {% for year_group in publications_by_year %}
   <h2 class="pub-year">{{ year_group.name }}</h2>
 
   {% for pub in year_group.items %}
-    <div class="pub-item">
-      
-      <p class="pub-citation">
-        {{ pub.citation }}
-      </p>
+  <div class="pub-item">
 
-      <div class="pub-links">
-        {% if pub.paperurl %}
-          <a href="{{ pub.paperurl }}" target="_blank">
-            <i class="fas fa-external-link-alt"></i> 
-          </a>
-        {% endif %}
+    <p class="pub-citation">
+      {{ pub.citation }}
+    </p>
 
-        {% if pub.pdfurl %}
-          <a href="{{ pub.pdfurl }}" target="_blank">
-            <i class="fas fa-file-pdf"></i> 
-          </a>
-        {% endif %}
-
-        {% if pub.supplementurl %}
-          <a href="{{ pub.supplementurl }}" target="_blank">
-            <i class="fas fa-paperclip"></i> 
-          </a>
-        {% endif %}
-
-        {% if pub.doi %}
-          <a href="https://doi.org/{{ pub.doi }}" target="_blank">
-            <i class="ai ai-doi"></i> 
-          </a>
-        {% endif %}
-
-        {% if pub.bibtexurl %}
-          <a href="{{ pub.bibtexurl }}" target="_blank">
-            <i class="fas fa-quote-right"></i> 
-          </a>
-        {% endif %}
-      </div>
-
-      {% if pub.abstract %}
-        <details class="pub-abstract">
-          <summary>Abstract</summary>
-          <p>{{ pub.abstract }}</p>
-        </details>
+    <div class="pub-links">
+      {% if pub.paperurl %}
+      <a href="{{ pub.paperurl }}" target="_blank">
+        <i class="fas fa-external-link-alt"></i>
+      </a>
       {% endif %}
 
+      {% if pub.pdfurl %}
+      <a href="{{ pub.pdfurl }}" target="_blank">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      {% endif %}
+
+      {% if pub.supplements %}
+      {% for supp in pub.supplements %}
+      <a href="{{ supp.url }}" target="_blank" title="Supplement {{ forloop.index }}">
+        <i class="fas fa-paperclip"></i>
+      </a>
+      {% endfor %}
+      {% endif %}
+
+      {% if pub.doi %}
+      <a href="https://doi.org/{{ pub.doi }}" target="_blank">
+        <i class="ai ai-doi"></i>
+      </a>
+      {% endif %}
+
+      {% if pub.bibtexurl %}
+      <a href="{{ pub.bibtexurl }}" target="_blank">
+        <i class="fas fa-quote-right"></i>
+      </a>
+      {% endif %}
     </div>
+
+    {% if pub.abstract %}
+    <details class="pub-abstract">
+      <summary>Abstract</summary>
+      <p>{{ pub.abstract }}</p>
+    </details>
+    {% endif %}
+
+  </div>
   {% endfor %}
-{% endfor %}
+  {% endfor %}
 
 </div>
