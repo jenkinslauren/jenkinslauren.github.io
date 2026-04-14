@@ -23,33 +23,42 @@ author_profile: false
 
       <div class="pub-links">
         {% if pub.paperurl %}
-          <a href="{{ pub.paperurl }}" target="_blank">Published Version</a>
+          <a href="{{ pub.paperurl }}" target="_blank">
+            <i class="fas fa-external-link-alt"></i> 
+          </a>
         {% endif %}
 
         {% if pub.pdfurl %}
-          <a href="{{ pub.pdfurl }}" target="_blank">PDF</a>
+          <a href="{{ pub.pdfurl }}" target="_blank">
+            <i class="fas fa-file-pdf"></i> 
+          </a>
         {% endif %}
 
         {% if pub.supplementurl %}
-          <a href="{{ pub.supplementurl }}" target="_blank">Supplement</a>
+          <a href="{{ pub.supplementurl }}" target="_blank">
+            <i class="fas fa-paperclip"></i> 
+          </a>
         {% endif %}
 
         {% if pub.doi %}
-          <a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI</a>
+          <a href="https://doi.org/{{ pub.doi }}" target="_blank">
+            <i class="ai ai-doi"></i> 
+          </a>
         {% endif %}
 
         {% if pub.bibtexurl %}
-          <a href="{{ pub.bibtexurl }}" target="_blank">BibTeX</a>
+          <a href="{{ pub.bibtexurl }}" target="_blank">
+            <i class="fas fa-quote-right"></i> 
+          </a>
         {% endif %}
-
-        {% if pub.abstract %}
-    <details class="pub-abstract">
-      <summary>Abstract</summary>
-      <p>{{ pub.abstract }}</p>
-    </details>
-  {% endif %}
-
       </div>
+
+      {% if pub.abstract %}
+        <details class="pub-abstract">
+          <summary>Abstract</summary>
+          <p>{{ pub.abstract }}</p>
+        </details>
+      {% endif %}
 
     </div>
   {% endfor %}
