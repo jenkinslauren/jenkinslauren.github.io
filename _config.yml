@@ -353,6 +353,5 @@ compress_html:
     envs: development
 
 analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-5NH7BGVHJV"
+  provider: google-analytics-4
+  google_analytics_id: G-5NH7BGVHJV
