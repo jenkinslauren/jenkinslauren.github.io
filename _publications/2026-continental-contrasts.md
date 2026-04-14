@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2026-continental-contrasts
 date: 2026-02-11
 venue: 'Global Change Biology'
-citation: 'Clark, J. S., ... <b>Jenkins, L.</b> ..., Żywiec, M. 2026. “Continental Contrasts in Climate Extremes That Control Tree Fecundity.” <i>Global Change Biology</i>, 32, no. 2: e70738.'
+citation: 'Clark, J. S., Andrus, R., ... <b>Jenkins, L.</b> ..., Żywiec, M. 2026. “Continental Contrasts in Climate Extremes That Control Tree Fecundity.” <i>Global Change Biology</i>, 32, no. 2: e70738.'
 paperurl: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.70738'
 pdfurl: '/files/publications/2026-continental-contrasts.pdf'
 doi: 'https://doi.org/10.1111/gcb.70738'
