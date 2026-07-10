@@ -50,6 +50,8 @@ author_profile: false
   display: block;
   font-size: 1.25rem;
   font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #2e7d32;
   line-height: 1.25;
   margin-bottom: 0.2em;
