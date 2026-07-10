@@ -14,7 +14,8 @@ author_profile: false
   {% for year_group in publications_by_year %}
   <h2 class="pub-year">{{ year_group.name }}</h2>
 
-  {% for pub in year_group.items %}
+  {% assign sorted_pubs = year_group.items | sort: "date" | reverse %}
+  {% for pub in sorted_pubs %}
   <div class="pub-item">
 
     <p class="pub-citation">
