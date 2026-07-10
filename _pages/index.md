@@ -6,24 +6,28 @@ author_profile: false
 ---
 
 <div class="about-section">
-      <div class="photo-scroll">
-        <img src="/images/about/coweeta.jpg" alt="Field work">
-        <!-- <img src="/images/about/crop_counts_LJ.jpg" alt="Crop counts!" > -->
-      </div>
-<!--
-  <div class="about-text">
-    <p>Hello! I'm Lauren, an Ecology PhD candidate in the Nicholas School of the Environment at Duke University. I study climate change impacts on continent-wide forest biodiversity. My research focuses on understanding how global climate patterns affect forest ecosystems across multiple scales.</p>
+  <div class="photo-scroll-wrap">
+    <div class="photo-scroll">
+      <img src="/images/about/coweeta.jpg" alt="Field work">
+    </div>
+
+    <a href="/publications/" class="sticky-note">
+      📌 New paper just out!<br>
+      <span>Check it out here →</span>
+    </a>
   </div>
--->
 </div>
 
-<a href="/publications/2026-terrain" class="sticky-note">
-  📌 New paper just out!<br>
-  <span>Check it out here →</span>
-</a>
-
 <style>
+.photo-scroll-wrap {
+  position: relative;
+}
+
 .sticky-note {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 10;
   display: inline-block;
   background: #fff69b;
   color: #333;
@@ -35,8 +39,6 @@ author_profile: false
   transform: rotate(-3deg);
   box-shadow: 3px 4px 10px rgba(0,0,0,0.25);
   border-radius: 2px;
-  position: relative;
-  margin: 1.5em auto 2em;
   transition: transform 0.15s ease;
 }
 
