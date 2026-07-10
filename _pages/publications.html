@@ -16,7 +16,11 @@ author_profile: false
 
   {% assign sorted_pubs = year_group.items | sort: "date" | reverse %}
   {% for pub in sorted_pubs %}
-  <div class="pub-item">
+  <div class="pub-item{% if pub.new %} pub-item--featured{% endif %}">
+
+    {% if pub.new %}
+      <span class="pub-badge">Just out</span>
+    {% endif %}
 
     <p class="pub-citation">
       {{ pub.citation }}
