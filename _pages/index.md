@@ -34,7 +34,7 @@ author_profile: false
   padding: 1.1em 1.6em;
   text-align: center;
   border-radius: 10px;
-  border: 1px solid #a8d5b0;
+  border: 3px solid #a8d5b0;
   box-shadow: 0 4px 14px rgba(0,0,0,0.15);
   transform: rotate(-2deg);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -49,8 +49,8 @@ author_profile: false
 .sticky-note__headline {
   display: block;
   font-size: 1.25rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
+  font-weight: 900;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   color: #2e7d32;
   line-height: 1.25;
@@ -59,8 +59,8 @@ author_profile: false
 
 .sticky-note__subtext {
   display: block;
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 600;
   color: #3a3a3a;
 }
 </style>
