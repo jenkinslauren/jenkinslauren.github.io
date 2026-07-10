@@ -2,7 +2,7 @@
 title: "Continental Contrasts in Climate Extremes That Control Tree Fecundity"
 collection: publications
 category: manuscripts
-permalink: /publication/2026-continental-contrasts
+permalink: /publications/2026-continental-contrasts
 date: 2026-02-11
 venue: 'Global Change Biology'
 citation: 'Clark, J. S., Andrus, R., ... <b>Jenkins, L.</b> ..., Żywiec, M. 2026. “Continental Contrasts in Climate Extremes That Control Tree Fecundity.” <i>Global Change Biology</i>, 32, no. 2: e70738.'

@@ -2,7 +2,7 @@
 title: "Fecundity and terrain‐climate interactions that shape tree niche differences across North America and Europe"
 collection: publications
 category: manuscripts
-permalink: /publication/2026-terrain
+permalink: /publications/2026-terrain
 date: 2026-06-23
 venue: 'Journal of Ecology'
 citation: '<b>Jenkins, L.</b>, Bankston, T., Hu, M., Ibáñez, I., Kays, R., Kunstler, G., Luongo, J., McMurry, S., Meyer, K., Moran, E. V., Redmond, M. D., Reid, C. D., Qiu, T., Zheng, S., & Clark, J. S. “Fecundity and terrain‐climate interactions that shape tree niche differences across North America and Europe” <i>Journal of Ecology</i>, 114, e70369.'

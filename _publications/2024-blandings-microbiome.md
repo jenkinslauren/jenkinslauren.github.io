@@ -2,7 +2,7 @@
 title: "Variable effects of captivity on microbiomes in populations of IUCN-endangered Blanding’s turtles (<i>Emydoidea blandingii</i>)"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-blandings-microbiome
+permalink: /publications/2024-blandings-microbiome
 date: 2024-05-16
 venue: 'Journal of Applied Microbiology'
 citation: '<b>Jenkins, L.</b>, McKnight, D. T., Parks, M., Byer, N. W., Oliaro, F. J., Thompson, D., & Scott, R. 2024. Variable effects of captivity on microbiomes in populations of IUCN-endangered Blanding’s turtles (<i>Emydoidea blandingii</i>). <i>Journal of Applied Microbiology</i>, 135(5), lxae121.'

@@ -2,7 +2,7 @@
 title: "If you build it, will they come? Insect community responses to habitat establishment at solar energy facilities in Minnesota, USA"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-solar-pollinators
+permalink: /publications/2024-solar-pollinators
 date: 2023-12-10
 venue: 'Environmental Research Letters'
 citation: 'Walston, L. J., Hartmann, H. M., Fox, L., Macknick, J., McCall, J., Janski, J., & <b>Jenkins, L</b>. 2024. If you build it, will they come? Insect community responses to habitat establishment at solar energy facilities in Minnesota, USA. <i>Environmental Research Letters</i>, 19(1), 014053.'

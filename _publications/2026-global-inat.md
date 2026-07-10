@@ -2,7 +2,7 @@
 title: "A global tour of iNaturalist mammal data: status, trends, and outlook for macroecology and conservation"
 collection: publications
 category: manuscripts
-permalink: /publication/2026-global-inat
+permalink: /publications/2026-global-inat
 date: 2026-04-24
 venue: 'Journal of Mammalogy'
 citation: 'Jensen, A. J., Ackley, ... <b>Jenkins, L.</b> ..., & Kays, R. 2026. "A global tour of iNaturalist mammal data: status, trends, and outlook for macroecology and conservation." <i>Journal of Mammalogy</i>, 107(3), 532-545.'
