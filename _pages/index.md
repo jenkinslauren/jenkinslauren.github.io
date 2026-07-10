@@ -34,7 +34,7 @@ author_profile: false
   padding: 1.1em 1.6em;
   text-align: center;
   border-radius: 10px;
-  border: 3px solid #a8d5b0;
+  border: 4px solid #a8d5b0;
   box-shadow: 0 4px 14px rgba(0,0,0,0.15);
   transform: rotate(-2deg);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
