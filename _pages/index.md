@@ -12,8 +12,8 @@ author_profile: false
     </div>
 
     <a href="/publications/" class="sticky-note">
-      📌  New paper!<br>
-      <span>Check it out here →</span>
+      <span class="sticky-note__headline">📌 New paper!</span>
+      <span class="sticky-note__subtext">Check it out here →</span>
     </a>
   </div>
 </div>
@@ -29,18 +29,16 @@ author_profile: false
   left: 30px;
   z-index: 10;
   display: inline-block;
-  background: #fdf6ec;
+  background: #eaf6ec;
   color: #3a3a3a;
   padding: 1.1em 1.6em;
-  font-size: 1rem;
-  line-height: 1.4;
-  text-decoration: none;
   text-align: center;
   border-radius: 10px;
-  border: 1px solid #e8ddc7;
+  border: 1px solid #a8d5b0;
   box-shadow: 0 4px 14px rgba(0,0,0,0.15);
   transform: rotate(-2deg);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
+  text-decoration: none;
 }
 
 .sticky-note:hover {
@@ -48,17 +46,19 @@ author_profile: false
   box-shadow: 0 6px 18px rgba(0,0,0,0.2);
 }
 
-.sticky-note span {
-  font-weight: 600;
-  color: #4a7c59;
+.sticky-note__headline {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #2e7d32;
+  line-height: 1.25;
+  margin-bottom: 0.2em;
 }
 
-.sticky-note::before {
-  content: "🌱";
-  position: absolute;
-  top: -14px;
-  left: -10px;
-  font-size: 1.4rem;
-  transform: rotate(-15deg);
+.sticky-note__subtext {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #3a3a3a;
 }
 </style>

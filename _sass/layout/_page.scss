@@ -988,7 +988,7 @@
 }
 
 .pub-badge {
-  display: inline-block;
+  display: block;
   background: #2e7d32;
   color: #fff;
   font-size: 0.75rem;
@@ -998,4 +998,5 @@
   padding: 0.25em 0.7em;
   border-radius: 999px;
   margin-bottom: 0.6em;
+  width: fit-content;
 }
