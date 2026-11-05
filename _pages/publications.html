@@ -58,6 +58,13 @@ author_profile: false
         <i class="fas fa-quote-right"></i>
       </a>
       {% endif %}
+
+      {% if pub.blogurl %}
+      <a href="{{ pub.blogurl }}" target="_blank" class="pub-blog-link">
+        <i class="fas fa-pen-nib"></i> [blog]
+      </a>
+      {% endif %}
+
     </div>
 
     {% if pub.abstract %}
